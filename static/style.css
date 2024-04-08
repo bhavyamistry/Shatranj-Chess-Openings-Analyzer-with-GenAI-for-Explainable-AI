@@ -1,0 +1,147 @@
+/* Body Styles */
+body {
+    padding-top: 70px;
+    align-items: center;
+    background-image: url("../static/libs/chessboard/assets/chess_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 1;
+}
+
+#logo {
+    position: relative;
+    left: 10%;
+}
+
+/* Board Styles */
+#board {
+    padding: 10px;
+    max-width: 450px;
+    min-width: 300px;
+    margin: auto;
+}
+
+/* Second Window Styles */
+#secondWindow {
+    max-width: 600px;
+    margin: 10px auto;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 95%;
+    box-sizing: border-box;
+  }
+  
+
+/* Move Table Styles */
+#moveTable {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+}
+
+/* Control Styles */
+#controls {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+#pgn {
+    margin-bottom: 10px;
+  }
+  
+  .advantage-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .controls-box {
+    margin-bottom: 10px;
+  }
+  
+  .controls-box .form-group {
+    margin-right: 10px;
+  }
+  
+  /* body {
+    padding-top: 70px;
+    align-items: center;
+    background-image: url("../static/libs/chessboard/assets/chess_background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+
+#board {
+    padding: 10px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+
+#logo {
+    position: relative;
+    left: 10%;
+}
+
+#secondWindow {
+    max-width: 800px;
+    margin: 10px;
+    min-height: 370px;
+
+}
+
+#moveTable {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+}
+
+#controls {
+    position: absolute;
+    bottom: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+  } */
