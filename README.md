@@ -16,7 +16,7 @@ The objective of this data mining project is to predict the success of various c
 ## Dataset
 
 The dataset used in this project is sourced from Kaggle and offers a comprehensive collection of 6.25 million chess games played on lichess.org during July 2016. Each game is meticulously represented by a row, providing valuable insights into player strategies, game dynamics, and opening variations.
-
+![Kaggle][(https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/arevel/chess-games/data)
 [Dataset Link](https://www.kaggle.com/datasets/arevel/chess-games/data)
 
 ### Preprocessing Steps
@@ -43,7 +43,7 @@ These preprocessing steps help prepare the dataset for further analysis and mach
 The following libraries were used in this project: <br>
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
+
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-FF5733?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-008000?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 
