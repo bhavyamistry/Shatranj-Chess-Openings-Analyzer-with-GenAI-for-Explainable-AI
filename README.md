@@ -1,17 +1,18 @@
-# Shatranj---Chess-Tutor
+# Shatranj-Chess Openings Analyzer
 
 ![chess](https://github.com/bhavyamistry/Shatranj-Chess-Tutor/assets/58860047/1506ded6-bb10-4f9d-a215-299cf7af162e)
 
-
-<img src="./images/cycle.gif" alt="vector" align="center">
+This project aims to provide valuable insights into the world of chess openings by analyzing and understanding the success rates of different opening moves.
 
 ## Project Overview
 
-This project focuses on analyzing bicycle sales data to understand customer preferences based on various factors such as geographical location, occupation, gender, age, commute distance, and vehicle ownership. By visualizing this data, sellers can gain insights into customer demographics and tailor their offerings to better meet customer needs.
+The Chess Openings Analyzer project leverages machine learning (ML) techniques to analyze the success rates of various chess openings. By incorporating the latest advances in ML and data mining, such as deep learning algorithms and neural networks, this project offers several advantages over current state-of-the-art solutions.
+
+Using machine learning algorithms like logistic regression, the project predicts game results based on openings, ELO ratings, and other features in the dataset. Additionally, clustering techniques are employed to analyze the results of different openings, providing players with valuable insights into strategic decision-making.
 
 ## Problem Statement
 
-The bicycle industry faces challenges in understanding trends in bicycle sales based on location and customer demographics. Lack of insight into customer preferences hinders sellers' ability to effectively target their offerings. This project aims to address this issue by analyzing bicycle sales data from three regions: North America, the Pacific, and Europe.
+The objective of this data mining project is to predict the success of various chess openings using historical game data. The goal is to leverage machine learning techniques to analyze patterns within the dataset and gain insights into the effectiveness of different opening strategies.
 
 ## Dataset
 
