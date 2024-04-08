@@ -47,6 +47,18 @@ The following libraries were used in this project: <br>
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-FF5733?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-008000?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 
+### Data Pipelines and Model Preparation
+
+We utilize machine learning algorithms to analyze results and select an efficient model for various data types. Our approach includes the following steps:
+
+- We use a `DataFrameSelector` class that inherits from `BaseEstimator` and `TransformerMixin` to select the required attributes of a data frame. This class has `init`, `fit`, and `transform` methods and accepts a list of attribute names.
+
+- Two pipelines, `num pipeline` and `cat pipeline`, handle numerical and categorical data, respectively. The `num pipeline` selects numerical attributes and uses `SimpleImputer` to fill missing values with the mean. The `cat pipeline` selects categorical attributes and fills missing values with the most frequent value using `SimpleImputer`. It also applies `LabelEncoder` to encode categorical values into numerical values.
+
+- The `FeatureUnion` function combines numerical and categorical pipelines into a single pipeline named `data prep pipeline`.
+
+- The `run model` function takes a machine learning model, training, validation, and test data as input. It creates a full pipeline including the `data prep pipeline` and the given model. After fitting the pipeline on the training data, it returns the accuracy, AUC score, and other performance metrics of the model on the training, validation, and test data. The function also records the fit time of the model and adds all performance metrics to a pandas data frame named `expLog`.
+
 ## Project Demonstration
 
 Click the link below to watch a demonstration of the project:
