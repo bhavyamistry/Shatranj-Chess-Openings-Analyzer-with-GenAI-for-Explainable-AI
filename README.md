@@ -15,9 +15,28 @@ The objective of this data mining project is to predict the success of various c
 
 ## Dataset
 
-The dataset used in this project is sourced from Kaggle and includes information on bicycle purchases, including geographical location, occupation, gender, age, commute distance, and vehicle ownership.
+The dataset used in this project is sourced from Kaggle and offers a comprehensive collection of 6.25 million chess games played on lichess.org during July 2016. Each game is meticulously represented by a row, providing valuable insights into player strategies, game dynamics, and opening variations.
 
-[Dataset Link](https://www.kaggle.com/datasets/heeraldedhia/bike-buyers)
+[Dataset Link](https://www.kaggle.com/datasets/arevel/chess-games/data)
+
+### Preprocessing Steps
+
+A basic overview of the preprocessing steps applied to the Chess Games dataset is outlined below:
+
+1. **Find and Drop Missing Values**: Identify and drop rows with missing values.
+2. **Drop NaNs**: Remove any remaining NaN values.
+3. **Drop Unnecessary Columns**: Remove the "White" and "Black" columns, as they only contain IDs which are not useful for analysis.
+4. **Encode Game Results**: Encode game results into three categories: 1 for White win, 0 for Black win, and 2 for tie.
+5. **Drop UTC Date and Time**: Remove UTC date and time columns as they are not required for analysis.
+6. **Categorize Events**: Categorize and encode event types into fewer categories (e.g., Blitz, Blitz tournament).
+7. **Scale Elo Ratings**: Scale White and Black Elo ratings for analysis.
+8. **Drop Rating Differences**: Drop columns for White and Black rating differences as they provide limited value.
+9. **Create Opening DataFrame**: Create a separate DataFrame for opening moves using the ECO code for mapping.
+10. **Drop Time Control**: Temporarily drop the time control column for analysis, which may be useful for later.
+11. **Extract Individual Moves**: Parse and extract individual moves from the AN column to analyze opening moves in detail.
+12. **Encode Termination Conditions**: Encode termination conditions as "normal" (1) and "time forfeit" (0), while reducing instances based on conditions such as "Abandoned" and "Rule Infarction".
+
+These preprocessing steps help prepare the dataset for further analysis and machine learning modeling.
 
 ## Libraries Used
 
