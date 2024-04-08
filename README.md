@@ -17,9 +17,8 @@ The objective of this data mining project is to predict the success of various c
 
 The dataset used in this project is sourced from Kaggle and offers a comprehensive collection of 6.25 million chess games played on lichess.org during July 2016. Each game is meticulously represented by a row, providing valuable insights into player strategies, game dynamics, and opening variations.
 
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/arevel/chess-games/data)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/arevel/chess-games/data)
 
-[Dataset Link](https://www.kaggle.com/datasets/arevel/chess-games/data)
 
 ### Preprocessing Steps
 
