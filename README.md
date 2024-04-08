@@ -47,7 +47,7 @@ The following libraries were used in this project: <br>
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-FF5733?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-008000?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 
-### Data Pipelines and Model Preparation
+## Data Pipelines and Model Preparation
 
 We utilize machine learning algorithms to analyze results and select an efficient model for various data types. Our approach includes the following steps:
 
@@ -58,6 +58,27 @@ We utilize machine learning algorithms to analyze results and select an efficien
 - The `FeatureUnion` function combines numerical and categorical pipelines into a single pipeline named `data prep pipeline`.
 
 - The `run model` function takes a machine learning model, training, validation, and test data as input. It creates a full pipeline including the `data prep pipeline` and the given model. After fitting the pipeline on the training data, it returns the accuracy, AUC score, and other performance metrics of the model on the training, validation, and test data. The function also records the fit time of the model and adds all performance metrics to a pandas data frame named `expLog`.
+
+## Model Utilization
+
+I have utilized a variety of algorithms to power its functionality. The decision algorithms employed include:
+
+- Tree Classifier
+- RandomForest Classifier
+- Adaboost Classifier
+- GradientBoost Classifier
+- Cat-BoostClassifier
+- XGBM Classifier
+- KNN Classifier
+- Gaussian Naive Bayes
+- Multi-Layer Perceptron Neural Networks
+
+For the Flask application files used:
+
+- **Model.py**: Responsible for running user moves against the model and providing predictions.
+- **flask app.py**: Handles user moves and provides results.
+- **chess engine.py**: Provides the GUI for the chess interface.
+- **board test.py**: Used for testing and validating user chess moves.
 
 ## Project Demonstration
 
