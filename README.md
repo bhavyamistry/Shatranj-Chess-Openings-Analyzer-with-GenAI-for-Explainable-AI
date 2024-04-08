@@ -2,7 +2,17 @@
 
 <img src="https://github.com/bhavyamistry/Shatranj-Chess-Tutor/assets/58860047/1506ded6-bb10-4f9d-a215-299cf7af162e" alt="vector" align="center">
 
-## Project Overview
+## Table of Contents
+
+- [Project Overview](#Project-Overview)
+- [Dataset](#Dataset)
+- [Preprocessing](#Preprocessing)
+- [Libraries-Used](#Libraries-Uses)
+- [Data Pipeline Preparation](#Data-Pipelines-Preparation)
+- [Model Processing](#Model-Processing)
+- [Demo](#Project-Demonstration)
+  
+## Project-Overview
 
 The Chess Openings Analyzer project leverages machine learning (ML) techniques, including logistic regression, to analyze the success rates of various chess openings. By incorporating the latest advances in ML and data mining, such as deep learning algorithms and neural networks, this project offers several advantages over current state-of-the-art solutions.
 
@@ -15,7 +25,7 @@ The dataset used in this project is sourced from Kaggle and offers a comprehensi
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/arevel/chess-games/data)
 
 
-### Preprocessing Steps
+### Preprocessing
 
 A basic overview of the preprocessing steps applied to the Chess Games dataset is outlined below:
 
@@ -34,7 +44,7 @@ A basic overview of the preprocessing steps applied to the Chess Games dataset i
 
 These preprocessing steps help prepare the dataset for further analysis and machine learning modeling.
 
-## Libraries Used
+## Libraries-Used
 
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
@@ -44,9 +54,9 @@ These preprocessing steps help prepare the dataset for further analysis and mach
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=fff)
 
-## Data Pipelines and Model Preparation
+## Data-Pipelines-Preparation
 
-We utilize machine learning algorithms to analyze results and select an efficient model for various data types. My approach includes the following steps:
+Utilized machine learning algorithms to analyze results and select an efficient model for various data types. My approach includes the following steps:
 
 - I used a `DataFrameSelector` class that inherits from `BaseEstimator` and `TransformerMixin` to select the required attributes of a data frame. This class has `init`, `fit`, and `transform` methods and accepts a list of attribute names.
 
@@ -56,7 +66,7 @@ We utilize machine learning algorithms to analyze results and select an efficien
 
 - The `run model` function takes a machine learning model, training, validation, and test data as input. It creates a full pipeline including the `data prep pipeline` and the given model. After fitting the pipeline on the training data, it returns the accuracy, AUC score, and other performance metrics of the model on the training, validation, and test data. The function also records the fit time of the model and adds all performance metrics to a pandas data frame named `expLog`.
 
-## Model Utilization
+## Model-Processing
 
 I have utilized a variety of algorithms to power its functionality. The decision algorithms employed include:
 
@@ -107,7 +117,7 @@ python3 flask_app.py
 
 To integrate Gemini AI, you need to obtain an API key from the Gemini AI platform. Insert this API key in your `flask_app.py` file to authenticate requests to the Gemini AI API.
 
-## Project Demonstration
+## Project-Demonstration
 
 https://github.com/bhavyamistry/Shatranj-Chess-Openings-Analyzer-with-GenAI-for-Explainable-AI/assets/58860047/fad8a568-4482-4ab0-81c9-e3bad06184d7
 
