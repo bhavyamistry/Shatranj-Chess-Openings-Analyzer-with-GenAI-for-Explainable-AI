@@ -36,3 +36,31 @@ Click the link below to watch a demonstration of the project:
 ## Conclusion
 
 By analyzing bicycle sales data, we can gain valuable insights into customer preferences and trends. This information can help sellers make informed decisions and tailor their offerings to better meet customer needs, ultimately improving sales and customer satisfaction.
+
+## Instructions
+
+1. CREATE AN .env file
+```
+python3 -m venv <virtual-environment-name>
+```
+3. ADD THE FOLLOWING LINES IN IT
+
+```
+FLASK_APP=flask_app.py
+FLASK_DEBUG=1
+FLASK_RUN_PORT = 3000
+APP_SECRET_KEY = IOAJODJAD89ADYU9A78YGD
+```
+2.THEN RUN THE FOLLOWING IN THE TERMNINAL WITHIN THE ENVIROMENT
+```
+pip3 install -r requirements.txt
+```
+3.TO RUN THE SERVER USE
+```
+flask run
+```
+OR
+```
+python3 flask_app.py
+```
+
