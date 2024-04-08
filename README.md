@@ -25,7 +25,7 @@ A basic overview of the preprocessing steps applied to the Chess Games dataset i
 
 1. **Find and Drop Missing Values**: Identify and drop rows with missing values.
 2. **Drop NaNs**: Remove any remaining NaN values.
-3. **Drop Unnecessary Columns**: Remove the "White" and "Black" columns, as they only contain IDs which are not useful for analysis.
+3. **Drop Unnecessary Columns**: Remove the "White" and "Black" columns, as they only contain IDs that are not useful for analysis.
 4. **Encode Game Results**: Encode game results into three categories: 1 for White win, 0 for Black win, and 2 for tie.
 5. **Drop UTC Date and Time**: Remove UTC date and time columns as they are not required for analysis.
 6. **Categorize Events**: Categorize and encode event types into fewer categories (e.g., Blitz, Blitz tournament).
@@ -107,9 +107,14 @@ OR
 ```
 python3 flask_app.py
 ```
+5. Using Gemini AI
+
+To integrate Gemini AI, you need to obtain an API key from the Gemini AI platform. Insert this API key in your flask_app.py file to authenticate requests to the Gemini AI API.
 ## Project Demonstration
 
-https://github.com/bhavyamistry/Shatranj-Chess-Openings-Analyzer-with-GenAI-for-Explainable-AI/assets/58860047/770458b7-16d7-4c8a-8afc-9553adde7970
+https://github.com/bhavyamistry/Shatranj-Chess-Openings-Analyzer-with-GenAI-for-Explainable-AI/assets/58860047/fad8a568-4482-4ab0-81c9-e3bad06184d7
+
+
 
 
 
