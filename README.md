@@ -4,9 +4,9 @@
 
 ## Project Overview
 
-The Chess Openings Analyzer project leverages machine learning (ML) techniques to analyze the success rates of various chess openings. By incorporating the latest advances in ML and data mining, such as deep learning algorithms and neural networks, this project offers several advantages over current state-of-the-art solutions.
+The Chess Openings Analyzer project leverages machine learning (ML) techniques, including logistic regression, to analyze the success rates of various chess openings. By incorporating the latest advances in ML and data mining, such as deep learning algorithms and neural networks, this project offers several advantages over current state-of-the-art solutions.
 
-Using machine learning algorithms like logistic regression, the project predicts game results based on openings, ELO ratings, and other features in the dataset. Additionally, clustering techniques are employed to analyze the results of different openings, providing players with valuable insights into strategic decision-making.
+Using machine learning algorithms like logistic regression and leveraging `Gemini AI` for a better understanding of the move suggested from the model we trained, the project predicts game results based on openings, ELO ratings, and other features in the dataset. Additionally, clustering techniques are employed to analyze the results of different openings, providing players with valuable insights into strategic decision-making.
 
 ## Problem Statement
 
@@ -109,7 +109,8 @@ python3 flask_app.py
 ```
 5. GENERATE API KEY FOR GEMINI AI
 
-To integrate Gemini AI, you need to obtain an API key from the Gemini AI platform. Insert this API key in your flask_app.py file to authenticate requests to the Gemini AI API.
+To integrate Gemini AI, you need to obtain an API key from the Gemini AI platform. Insert this API key in your `flask_app.py` file to authenticate requests to the Gemini AI API.
+
 ## Project Demonstration
 
 https://github.com/bhavyamistry/Shatranj-Chess-Openings-Analyzer-with-GenAI-for-Explainable-AI/assets/58860047/fad8a568-4482-4ab0-81c9-e3bad06184d7
