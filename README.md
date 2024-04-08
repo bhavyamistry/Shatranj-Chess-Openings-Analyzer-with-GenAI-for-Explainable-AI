@@ -44,15 +44,16 @@ These preprocessing steps help prepare the dataset for further analysis and mach
 The following libraries were used in this project: <br>
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-FF5733?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-008000?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ## Data Pipelines and Model Preparation
 
-We utilize machine learning algorithms to analyze results and select an efficient model for various data types. Our approach includes the following steps:
+We utilize machine learning algorithms to analyze results and select an efficient model for various data types. My approach includes the following steps:
 
-- We use a `DataFrameSelector` class that inherits from `BaseEstimator` and `TransformerMixin` to select the required attributes of a data frame. This class has `init`, `fit`, and `transform` methods and accepts a list of attribute names.
+- I used a `DataFrameSelector` class that inherits from `BaseEstimator` and `TransformerMixin` to select the required attributes of a data frame. This class has `init`, `fit`, and `transform` methods and accepts a list of attribute names.
 
 - Two pipelines, `num pipeline` and `cat pipeline`, handle numerical and categorical data, respectively. The `num pipeline` selects numerical attributes and uses `SimpleImputer` to fill missing values with the mean. The `cat pipeline` selects categorical attributes and fills missing values with the most frequent value using `SimpleImputer`. It also applies `LabelEncoder` to encode categorical values into numerical values.
 
@@ -81,16 +82,6 @@ For the Flask application files used:
 - **chess engine.py**: Provides the GUI for the chess interface.
 - **board test.py**: Used for testing and validating user chess moves.
 
-## Project Demonstration
-
-Click the link below to watch a demonstration of the project:
-
-[Project Video](https://www.youtube.com/watch?v=YboXwoAtaik)
-
-## Conclusion
-
-By analyzing bicycle sales data, we can gain valuable insights into customer preferences and trends. This information can help sellers make informed decisions and tailor their offerings to better meet customer needs, ultimately improving sales and customer satisfaction.
-
 ## Instructions
 
 1. CREATE AN .env file
@@ -117,4 +108,9 @@ OR
 ```
 python3 flask_app.py
 ```
+## Project Demonstration
+
+https://github.com/bhavyamistry/Shatranj-Chess-Openings-Analyzer-with-GenAI-for-Explainable-AI/assets/58860047/770458b7-16d7-4c8a-8afc-9553adde7970
+
+
 
