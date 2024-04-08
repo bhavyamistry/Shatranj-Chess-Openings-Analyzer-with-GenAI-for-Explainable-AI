@@ -1,7 +1,8 @@
 # Shatranj-Chess Openings Analyzer with GenAI for Explainable AI
 
-![chess](https://github.com/bhavyamistry/Shatranj-Chess-Tutor/assets/58860047/1506ded6-bb10-4f9d-a215-299cf7af162e)
-
+<div style="text-align:center">
+    ![chess](https://github.com/bhavyamistry/Shatranj-Chess-Tutor/assets/58860047/1506ded6-bb10-4f9d-a215-299cf7af162e)
+</div>
 
 ## Project Overview
 
