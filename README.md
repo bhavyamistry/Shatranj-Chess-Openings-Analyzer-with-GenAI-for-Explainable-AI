@@ -8,10 +8,6 @@ The Chess Openings Analyzer project leverages machine learning (ML) techniques, 
 
 Using machine learning algorithms like logistic regression and leveraging `Gemini AI` for a better understanding of the move suggested from the model we trained, the project predicts game results based on openings, ELO ratings, and other features in the dataset. Additionally, clustering techniques are employed to analyze the results of different openings, providing players with valuable insights into strategic decision-making.
 
-## Problem Statement
-
-The objective of this data mining project is to predict the success of various chess openings using historical game data. The goal is to leverage machine learning techniques to analyze patterns within the dataset and gain insights into the effectiveness of different opening strategies.
-
 ## Dataset
 
 The dataset used in this project is sourced from Kaggle and offers a comprehensive collection of 6.25 million chess games played on lichess.org during July 2016. Each game is meticulously represented by a row, providing valuable insights into player strategies, game dynamics, and opening variations.
