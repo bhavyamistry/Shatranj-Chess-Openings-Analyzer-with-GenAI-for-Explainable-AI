@@ -107,7 +107,7 @@ OR
 ```
 python3 flask_app.py
 ```
-5. Using Gemini AI
+5. GENERATE API KEY FOR GEMINI AI
 
 To integrate Gemini AI, you need to obtain an API key from the Gemini AI platform. Insert this API key in your flask_app.py file to authenticate requests to the Gemini AI API.
 ## Project Demonstration
