@@ -43,7 +43,7 @@ By analyzing bicycle sales data, we can gain valuable insights into customer pre
 ```
 python3 -m venv <virtual-environment-name>
 ```
-3. ADD THE FOLLOWING LINES IN IT
+2. ADD THE FOLLOWING LINES IN IT
 
 ```
 FLASK_APP=flask_app.py
@@ -51,11 +51,11 @@ FLASK_DEBUG=1
 FLASK_RUN_PORT = 3000
 APP_SECRET_KEY = IOAJODJAD89ADYU9A78YGD
 ```
-2.THEN RUN THE FOLLOWING IN THE TERMNINAL WITHIN THE ENVIROMENT
+3. THEN RUN THE FOLLOWING IN THE TERMINAL WITHIN THE ENVIRONMENT
 ```
 pip3 install -r requirements.txt
 ```
-3.TO RUN THE SERVER USE
+4. TO RUN THE SERVER USE
 ```
 flask run
 ```
