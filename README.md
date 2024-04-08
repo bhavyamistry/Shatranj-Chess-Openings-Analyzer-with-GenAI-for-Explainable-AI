@@ -2,7 +2,6 @@
 
 ![chess](https://github.com/bhavyamistry/Shatranj-Chess-Tutor/assets/58860047/1506ded6-bb10-4f9d-a215-299cf7af162e)
 
-This project aims to provide valuable insights into the world of chess openings by analyzing and understanding the success rates of different opening moves.
 
 ## Project Overview
 
